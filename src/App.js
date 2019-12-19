@@ -5,8 +5,8 @@ import BottomRow from "./BottomRow";
 
 function App() {
   //TODO: STEP 2 - Establish your application's state with some useState hooks.  You'll need one for the home score and another for the away score.
-  const [homeScore, setHomeScore] = useState(0); //setup state with inital value '0' for both teams' scores.
-  const [awayScore, setAwayScore] = useState(0);
+  const [homeScore, setHomeScore] = useState(4); //setup state with inital value '0' for both teams' scores.
+  const [awayScore, setAwayScore] = useState(4);
 
   // setting up score callbacks using "set(Team)Score" to use with click handlers
   const homeTouchdown = e => {
